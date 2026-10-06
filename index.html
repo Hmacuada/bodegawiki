@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BodegaWiki</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div id="page">
+  <aside id="panel"></aside>
+  <div id="right">
+    <div id="top">
+      <button class="burger" id="burger" aria-label="Menú">☰</button>
+      <div id="personal"></div>
+      <form class="search" id="sf">
+        <input id="q" type="search" placeholder="Buscar en BodegaWiki" autocomplete="off" aria-label="Buscar">
+        <div id="results" class="results" hidden></div>
+      </form>
+    </div>
+    <div id="tabs"></div>
+    <main id="content"></main>
+    <footer id="foot"></footer>
+  </div>
+</div>
+<script src="data.js"></script>
+<script src="data-programa.js"></script>
+<script src="contribuciones.js"></script>
+<script src="store.js"></script>
+<script src="wikitext.js"></script>
+<script src="views.js"></script>
+<script src="editors.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
